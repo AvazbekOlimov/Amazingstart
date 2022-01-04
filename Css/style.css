@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Oswald', sans-serif;    
+    color: #222;
+    height: 100vh;
+}
+.container {
+}
+.circle-container {
+}
+.circle {
+}
+.fas {
+}
+.fa-bars {
+}
+.fa-times {
+}
+.content {
+}
+.content-heading {
+}
+.content-author {
+}
+.content-title {
+}
+.content-img {
+}
+.site-nav {
+}
+.site-nav-li {
+}
+.site-nav-list {
+}
+.site-nav-link {
+}
+.fa-home {
+}
+.fa-user-alt {
+}
+.fa-envelope {
+}
