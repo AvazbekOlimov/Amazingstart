@@ -37,11 +37,15 @@ body{
     left: -100px;
 }
 .circle{
-    background-color: #ff7979;
+    background-color: #978c8c;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     position: relative;
+    box-shadow: 10px 10px 10px #1c6634,
+    10px 10px 20px #1c6634,
+    10px 10px 40px #1c6634
+    ;
 }
 .circle button{
     position: absolute;
@@ -52,6 +56,14 @@ body{
     border: 0;
     color: #fff;
     font-size: 24px;
+    text-shadow: 0 0 10px #1c6634,
+                0 0 20px #1c6634,
+                0 0 40px #1c6634,
+                0 0 80px #1c6634,
+                0 0 120px #1c6634
+    ;
+    letter-spacing: 0.1em;
+    cursor: pointer;
 }
 .circle button:focus{
     outline: none;
@@ -87,6 +99,10 @@ body{
 .site-nav-link {
     text-decoration: none;
     color: #fff;
+}
+
+.content-img{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .fas {
 }
